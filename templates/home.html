@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home Page Cresta</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css')}}">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="header">
+            <div class="logo">
+                <a href="#"><img src="/static/img/Cresta-Logo-1-1-1.png" alt="logo" width="240" height="75"></a>
+            <div class="uppermenu">
+            <ul class="list">
+                <li><a href="{{url_for('login')}}">sign up</a></li>
+                <li><a href="{{url_for('login')}}">login</a></li>
+                <li><a href="{{url_for('login')}}">home</a></li>
+            </ul>
+            </div>
+            </div>
+            </div>
+        </nav>
+        </header>
+        <section>
+            <div class="main-text">
+            <h1><b>Welcome to Cresta College Voting site</b></h1>
+            </div>
+        </section>
+</body>
+</html>

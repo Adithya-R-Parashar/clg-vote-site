@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Control</title>
+</head>
+<body>
+    <H1>candidates info</H1>
+    <form action="/getinfo" method="post" enctype="multipart/form-data">
+        <H3>Candidates for Vice-President</H3>
+        <label for="VPcan1">candidate 1 name:
+            <input type="text" name="VPcan1" id="VPcan1" required>
+        </label>
+        <label for="vp1">candidates image
+            <input type="file" name="vp1" id="vp1" accept="image/png,image/jpeg" required>
+        </label><br>
+        <label for="VPcan2">candidate 2 name:
+            <input type="text" name="VPcan2" id="VPcan2" required>
+        </label>
+        <label for="vp2">candidates image
+            <input type="file" name="vp2" id="vp2" accept="image/png,image/jpeg" required>
+        </label><br>
+        <label for="VPcan3">candidate 3 name:
+            <input type="text" name="VPcan3" id="VPcan3">
+        </label>
+        <label for="vp3">candidates image
+            <input type="file" name="vp3" id="vp3" accept="image/png,image/jpeg">
+        </label><br><br>
+        <H3>Candidates for Secretary</H3>
+        <label for="Scan1">candidate 1 name:
+            <input type="text" name="Scan1" id="Scan1" required>
+        </label>
+        <label for="s1">candidates image
+            <input type="file" name="s1" id="s1" accept="image/png,image/jpeg" required>
+        </label><br>
+        <label for="Scan2">candidate 2 name:
+            <input type="text" name="Scan2" id="Scan2" required>
+        </label>
+        <label for="s2">candidates image
+            <input type="file" name="s2" id="s2" accept="image/png,image/jpeg" required>
+        </label><br>
+        <label for="Scan3">candidate 3 name:
+            <input type="text" name="Scan3" id="Scan3">
+        </label>
+        <label for="s3">candidates image
+            <input type="file" name="s3" id="s3" accept="image/png,image/jpeg">
+        </label><br>
+        <h3>Candidates for Treasurer</h3>
+        <label for="Tcan1">candidate 1 name:
+            <input type="text" name="Tcan1" id="Tcan1" required>
+        </label>
+        <label for="t1">candidates image
+            <input type="file" name="t1" id="t1" accept="image/png,image/jpeg" required>
+        </label><br>
+        <label for="Tcan2">candidate 2 name:
+            <input type="text" name="Tcan2" id="Tcan2" required>
+        </label>
+        <label for="t2">candidates image
+            <input type="file" name="t2" id="t2" accept="image/png,image/jpeg" required>
+        </label><br>
+        <label for="Tcan3">candidate 3 name:
+            <input type="text" name="Tcan3" id="Tcan3">
+        </label>
+        <label for="t3">candidates image
+            <input type="file" name="t3" id="t3" accept="image/png,image/jpeg">
+        </label><br>
+        <input type="submit" value="upload">
+    </form>
+</body>
+</html>

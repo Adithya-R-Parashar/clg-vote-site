@@ -1,0 +1,69 @@
+body{
+    background-image: url(img/bgimg.jpg.webp);
+    background-size: cover;
+    background-attachment: local;
+    background-repeat: no-repeat;
+}
+.block1{
+    border-left: 500px;
+    padding-left: 200px;
+    margin-left: 60px;
+    margin-top: 55px;
+    width: 75%;
+    height: 650px;
+    backdrop-filter: blur(6px);
+    border-radius: 25px;
+
+}
+#vpHead{
+    margin-top: 35px;
+    padding-top: 35px;
+    padding-left: 30%;
+    backdrop-filter: none;
+    filter: none;
+}
+.vp{
+    margin-right: 100px;
+    padding-right: 100px;
+    filter: none;
+}
+.two-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vp-can1,.vp-can2{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.lable1{
+    margin-left: 80px;
+    padding-left: 75px;
+    font-size: 15px;
+}
+.lable2{
+    margin-left: 75px;
+    padding-left: 55px;
+    font-size: 15px;
+}
+#sub1{
+    height: 20px;
+    width: 45px;
+    position: absolute;
+    background-color: #008CBA;
+    border-radius: 15px;
+    border-style: none;
+    color: white;
+    right: 35px;
+}
+
+#radio-label{
+    margin-left: 145px;
+    font-size: large;
+    padding-left: 52px;
+}
+#radio-label1{
+    margin-left: 150px;
+    font-size: large;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="/static/result.css">
+</head>
+<body>
+    <div class="whole">
+        <h1 id="head1">RESULT OF THE ELECTION</h1>
+        <div class="VP-block">
+            <div class="smblock">
+            <h1 id="vphead">Vice President</h1>
+            <h4 id="cong1">Congrulations to the new Vice President</h4>
+            <img src="{{url_for('serve', filename=result['vp'][1])}}" alt="vp-imag">
+            <h5>name {{ result['vp'][0] }}</h5>
+            <h5>number of vote:{{ VPname }} </h5><h5> vote percentage:{{ VPpercent }}</h5>
+            {% if vptie>=2 %}
+             <p>there is a tie</p>
+            {% endif %}
+            </div>
+        </div>
+        <div class="Sec-block">
+            <div class="smbolck1">
+            <h1 id="shead">Secratery</h1>
+            <h4 id="Cong2">Congrulations to the new secratery</h4>
+            <img src="{{url_for('serve', filename=result['sac'][1])}}" alt="sec-image">
+            <h5>name {{ result['sac'][0] }}</h5>
+            <h5>number of votes:{{ Sname }} </h5><h5>vote percentage:{{ Spercent }}</h5>
+            {% if stie>= 2 %}
+             <p>there might be a tie</p>
+            {% endif %}
+            </div>
+        </div>
+        <div class="t-block">
+            <div class="smblock2">
+            <h1 id="thead">Treasurer</h1>
+            <h4 id="Cong3">Congrulations to the new Treasurer</h4>
+            <img src="{{url_for('serve', filename=result['tre'][1])}}" alt="T-image">
+            <h5>name {{ result['tre'][0] }}</h5>
+            <h5>number of votes:{{ Tname }} </h5><h5>vote percentage:{{ Tpercent }} </h5>
+            {% if ttie>= 2 %}
+             <p>there might be a tie</p>
+            {% endif %}
+            </div>
+        </div>
+        <a href="{{ url_for('flist')}}">click for more info</a>
+    </div>
+</body>
+</html>

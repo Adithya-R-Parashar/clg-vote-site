@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vote count</title>
+</head>
+<body>
+    <h1>total voters count</h1>
+    <h3>Vice-President</h3>
+    <table><tr>
+        <th> candidate's name</th>
+        <th> number of votes</th>
+        </tr>
+        <tr>
+            <td>{{ canNames['vp1']}}</td>
+            <td>{{ VPvotes['vp1']}}</td>
+        </tr>
+        <tr>
+            <td>{{ canNames['vp2']}}</td>
+            <td>{{ VPvotes['vp2']}}</td>
+        </tr>
+        <tr>
+            <td>{{ canNames['vp3']}}</td>
+            <td>{{ VPvotes['vp3']}}</td>
+        </tr>
+    </table><br>
+    <h3>Secetrary</h3>
+    <table>
+        <tr>
+            <th> candidate's name</th>
+            <th> number of votes</th>
+        </tr>
+        <tr>
+            <td>{{ canNames['scan1']}}</td>
+            <td>{{ Svotes['scan1']}}</td>
+        </tr>
+        <tr>
+            <td>{{ canNames['scan2']}}</td>
+            <td>{{ Svotes['scan2']}}</td>
+        </tr>
+        <tr>
+            <td>{{ canNames['scan3']}}</td>
+            <td>{{ Svotes['scan3']}}</td>
+        </tr>
+    </table><br>
+    <table>
+        <tr>
+            <th> candidate's names</th>
+            <th> number of votes</th>
+        </tr>
+        <tr>
+            <td>{{ canNames['tcan1']}}</td>
+            <td>{{ Tvotes['tcan1']}}</td>
+        </tr>
+        <tr>
+            <td>{{ canNames['tcan2']}}</td>
+            <td>{{ Tvotes['tcan2']}}</td>
+        </tr>
+        <tr>
+            <td>{{ canNames['tcan3']}}</td>
+            <td>{{ Tvotes['tcan3']}}</td>
+        </tr>
+    </table>
+</body>
+</html>

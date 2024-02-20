@@ -1,0 +1,90 @@
+body {
+    background-color: #1979a9;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.container {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#img {
+    width: 400px;
+    height: 400px;
+}
+.form {
+    width: 400px;
+    height: 400px;
+}
+.text-field {
+    font-size: 35px;
+}
+.pass {
+    font-size: 35px;
+}
+
+#id {
+    width: 280px;
+    height: 39px;
+    font-size: 30px;
+}
+
+h1{
+    font-size: 40px;
+    padding-left: 20px;
+    
+}
+#all-form label{
+    margin: 10px;
+}
+
+
+#id{
+    font-size: 20px;
+    width: 100%;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+}
+#Pass{
+        font-size: 20px;
+        width: 100%;
+        background-color: lightgrey;
+        border-radius: 10px;
+        border: 0;
+        outline: none;
+        padding-top: 15px;
+        
+    }
+.button{
+    padding-top: 10px;
+    width: 30%;
+    padding-left: 35%;
+}
+#submit{
+    width: 50%;
+    height: 25px;
+    background-color: #455ac5;
+    width: 100%;
+    border-radius: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+}
+#caption{
+    padding-top: 50px;
+    padding-left: 2px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>output details</title>
+</head>
+<body>
+    <h1>displaying all the collected info</h1>
+    <h2>Vice-President's candidates</h2>
+    <h5>candidate 1</h5>
+    <h6>{{ canNames['vp1'] }}</h6><br>
+    <img src="{{url_for('serve', filename='vp1.jpg')}}" alt="vp1"><br>
+    <h5>candidate 2</h5>
+    <h6>{{ canNames['vp2'] }}</h6><br>
+    <img src="{{url_for('serve', filename='vp2.jpg')}}" alt="vp2"><br>
+    <h5>candidate 3</h5>
+    <h6>{{ canNames['scan1'] }}</h6><br>
+    <img src="{{url_for('serve', filename='s1.jpg')}}" alt="s1"><br>
+</body>
+</html>

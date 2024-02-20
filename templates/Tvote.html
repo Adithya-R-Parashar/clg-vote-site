@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vote</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='vote.css')}}">
+</head>
+<body>
+    <div class="block1">
+        <div class="vp">
+            <h1 id="vpHead">Treasurer Candidates</h1>
+            <form action="/done" method="post">
+            <div class="two-block">
+            <div class="vp-can1">
+                <img src="{{ url_for('serve', filename='t1.jpg')}}" height="400" width="400" alt="vp1"><br>
+            <h6 class="lable1">{{ canNames['tcan1'] }}</h6>
+            <label for="tcan1" id="radio-label"><input type="radio" name="Tcan" value="can1" id="tcan1"><span>vote</span></label>
+            </div>
+            <div class="vp-can2">
+                <img src="{{ url_for('serve', filename='t2.jpg')}}" height="400" width="400" alt="vp2"><br>
+            <h6 class="lable2">{{ canNames['tcan2'] }}</h6>
+            <label for="tcan2" id="radio-label1"><input type="radio" name="Tcan" value="can2" id="tcan2"><span>vote</span></label>
+            </div>
+            </div>
+            <button type="submit" value="next" id="sub1">done</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
