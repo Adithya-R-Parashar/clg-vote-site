@@ -1,5 +1,5 @@
 # clg-vote-site
-website for conducting college elections with efficiency and privacy. conducting elections made easy. languages used: HTML, CSS, python with Flask
+The product is offcally called VoteCamp.us website for conducting college elections with efficiency and privacy. conducting elections made easy. languages used: HTML, CSS, python with Flask
 app.py has the main logic of the website running and uses Flask web framework to handel user request and give a response
 templates contains all the HTML pages used in the website. the static folder contains all the images and digital assets used in the website
 none of the dependencies were uploaded.
